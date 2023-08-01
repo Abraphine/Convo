@@ -1,0 +1,44 @@
+html,
+body {
+    background-color: cornflowerblue;
+    margin: 0;
+  padding: 20px;
+}
+h1 {
+    text-align: center;
+  }
+  
+  form {
+    margin-bottom: 20px;
+  }
+  
+  label {
+    font-weight: bold;
+  }
+  
+  input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+  
+  input[type="submit"] {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #4caf50;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  }
+  button {
+    cursor: pointer;
+  }
+  
+  #scrollableBox {
+    max-height: 200px;
+    overflow-y: auto;
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 20px;
+  }
